@@ -2,6 +2,7 @@ import re
 
 f = open('./1.txt', 'r')
 lines = f.readlines()
+f.close()
 
 def part1():
     total = 0
